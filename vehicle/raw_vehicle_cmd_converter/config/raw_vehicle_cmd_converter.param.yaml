@@ -8,13 +8,13 @@
     convert_steer_cmd: true
     use_steer_ff: true
     use_steer_fb: true
-    is_debugging: false
+    is_debugging: true
     max_throttle: 0.4
     max_brake: 0.8
     max_steer: 10.0
     min_steer: -10.0
     steer_pid:
-      kp: 150.0
+      kp: 5.0
       ki: 15.0
       kd: 0.0
       max: 8.0
